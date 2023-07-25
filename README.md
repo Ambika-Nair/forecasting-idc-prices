@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ## To generate forecast using ARIMA and XGBoost. 
 1. The script that generates forecast using ARIMA is named as ```ForecastingWithARIMA.py```
-2. The script that generates forecast using ARIMA is named as ```ForecastingWithXGBoost.py```
+2. The script that generates forecast using XGBoost is named as ```ForecastingWithXGBoost.py```
 3. The next steps are common to both the scripts:
 4. If you wish to log the run in MLflow to track its various metrics, open terminal and run as below. This starts a local server that hosts the MLflow UI. You can then access the UI by opening a web browser and navigating to the URL displayed in the terminal (typically http://localhost:5000)
 ```bash
